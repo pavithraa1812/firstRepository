@@ -1,0 +1,7 @@
+git clone <url>
+git add FILE_NAME
+git commit -m "message"
+git push origin master
+git pull
+
+commit->pull->push
