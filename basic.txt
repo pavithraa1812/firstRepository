@@ -5,3 +5,5 @@ git push origin master
 git pull
 
 commit->pull->push
+
+
