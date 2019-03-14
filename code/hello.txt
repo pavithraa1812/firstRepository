@@ -1,0 +1,72 @@
+hello pavithraa
+
+command
+
+
+admin@DESKTOP-4LLDO9M MINGW64 ~
+$ mkdir ss
+
+admin@DESKTOP-4LLDO9M MINGW64 ~
+$ cd ss
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss
+$ git clone https://github.com/pavithraa1812/firstRepository.git
+Cloning into 'firstRepository'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss
+$ ls
+firstRepository/
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss
+$ cd firstRepository/
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ ls
+README.md
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/admin/ss/firstRepository/.git/
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git config --global user.email "pavithraa1812@gmail.com"
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git config --global user.name "pavithraa1812"
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git add README.md
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git commit .
+Aborting commit due to empty commit message.
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git commit -m @changed readme file@
+error: pathspec 'readme' did not match any file(s) known to git
+error: pathspec 'file@' did not match any file(s) known to git
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git commit -m "changed readme file"
+[master aa4dc00] changed readme file
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 286 bytes | 95.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/pavithraa1812/firstRepository.git
+   29d5a1f..aa4dc00  master -> master
+
+admin@DESKTOP-4LLDO9M MINGW64 ~/ss/firstRepository (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
